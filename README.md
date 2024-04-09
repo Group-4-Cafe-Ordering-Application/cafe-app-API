@@ -6,3 +6,6 @@ This API Endpoint is for the Cafe Ordering App to handle SQL commands sent to th
 # For Developers
 If running API Endpoint locally, in command terminal, run the following command in project directory:
 ### `node DBAPIEndpoint.js`
+
+<strong>Note:</strong> Verify node modules are installed by running the following command:
+### `npm install`
