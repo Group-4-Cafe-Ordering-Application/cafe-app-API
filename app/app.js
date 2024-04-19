@@ -6,7 +6,7 @@ require("dotenv").config();
 const app = express();
 app.use(cors({ origin: "*", optionsSuccessStatus: 200 }));
 app.use(express.json());
-const port = process.env.REACT_APP_PORT || 5000;
+const port = process.env.REACT_APP_PORT || 3000;
 
 const config = {
   user: process.env.REACT_APP_USER,
