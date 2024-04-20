@@ -10,7 +10,7 @@ const port = process.env.REACT_APP_PORT || 3000;
 
 const config = {
   user: process.env.REACT_APP_USER,
-  password: process.env.REACT_APP_PASSWORD,
+  password: process.env.REACT_APP_PASSWORD.replaceAll('"', ""),
   server: process.env.REACT_APP_SERVER,
   database: process.env.REACT_APP_DATABASE,
   options: {
